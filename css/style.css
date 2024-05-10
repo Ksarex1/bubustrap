@@ -1,0 +1,35 @@
+:root {
+    --color1: #c6ebeb;
+    --color2: beige;
+}
+body{
+    margin: 0;
+}
+section{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+.progress{
+    height: 30px;
+}
+.progress p{
+    font-size: 20px;
+}
+header, .card, .graphics,.news{
+    background-color: var(--color1);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    size: 20px;
+}
+
+i {
+    font-size: 20px;
+}
+.koleso{
+    width: 50px;
+}
